@@ -76,8 +76,9 @@ def discover_indices():
 
 
 if __name__ == '__main__':
-    api = sys.argv[1]
-    stat = sys.argv[2]
+    ip = sys.argv[1]
+    api = sys.argv[2]
+    stat = sys.argv[3]
     if api == 'discover':
         if stat == 'nodes':
             print discover_nodes()

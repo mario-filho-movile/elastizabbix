@@ -26,6 +26,10 @@ This only needs to be setup on one of the elasticsearch nodes
 - Import the XML template (supports zabbix 2.4 and greater)
 - Add node to the newly imported template
 
+##TODO
+
+- Implement "per node" stats
+
 ## The MIT License (MIT)
 
 Copyright (c) 2015 Mike Palmer
